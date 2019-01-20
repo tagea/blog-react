@@ -1,0 +1,8 @@
+*.DS_Store
+
+**/node_modules/
+/src/
+.babelrc
+package-lock.json
+package.json
+webpack.config.js
