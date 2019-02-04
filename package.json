@@ -6,7 +6,8 @@
     "build": "webpack --mode production",
     "dev": "webpack-dev-server --mode development",
     "dev-test": "webpack --mode development",
-    "dev-json": "concurrently \"json-server --watch db.json\" \"webpack-dev-server --mode development\"",
+    "json": "json-server --watch blog.json",
+    "dev-json": "concurrently \"json-server --watch blog.json\" \"webpack-dev-server --mode development\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

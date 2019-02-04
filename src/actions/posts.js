@@ -1,6 +1,6 @@
 import { createAction } from 'redux-actions';
 
-import requestData from './func';
+import requestData from '../utils/func';
 
 export const getPostsList = createAction('[Posts] Receive');
 export const getPostDescr = createAction('[Post] Receive');

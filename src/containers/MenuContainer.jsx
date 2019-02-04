@@ -3,8 +3,7 @@ import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
 import Menu from 'components/Menu';
-//функция fetch
-import requestData from './func';
+import requestData from '../utils/func';
 
 export default class MenuContainer extends PureComponent {
     constructor(props) {
@@ -38,7 +37,6 @@ export default class MenuContainer extends PureComponent {
     }
 
     componentDidMount() {
-        // получаем меню с сервера
         requestData('menu').then((menu) => {
             this.setState({
                 menu
