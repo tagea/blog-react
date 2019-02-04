@@ -2,4 +2,3 @@
 **/node_modules/
 /dist
 /blog.json
-/webpack.config.js
