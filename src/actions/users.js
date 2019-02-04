@@ -1,6 +1,6 @@
 import { createAction } from 'redux-actions';
 
-import requestData from './func';
+import requestData from '../utils/func';
 
 export const getPostUser = createAction('[User] Receive');
 //подписываем событие

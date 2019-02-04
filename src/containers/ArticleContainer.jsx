@@ -6,7 +6,6 @@ import { connect } from 'react-redux';
 import Article from 'components/Article';
 import { mountEventPostList } from 'actions/posts';
 
-//для проверки свойств компонента
 import PropTypes from 'prop-types';
 
 class ArticleContainer extends PureComponent {

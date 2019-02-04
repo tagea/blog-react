@@ -3,10 +3,8 @@ import React, { PureComponent } from 'react';
 
 import Submenu from 'components/Submenu';
 
-//проверка свойств
 import PropTypes from 'prop-types';
-//функция fetch
-import requestData from './func';
+import requestData from '../utils/func';
 
 //компонент для бокового меню на странице
 export default class SubmenuContainer extends PureComponent {
@@ -19,7 +17,6 @@ export default class SubmenuContainer extends PureComponent {
     }
 
     static propTypes = {
-        //пункты бокового меню должны быть строкой
         submenu: PropTypes.arrayOf(PropTypes.object),
     }
 
