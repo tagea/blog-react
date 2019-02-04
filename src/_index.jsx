@@ -54,7 +54,6 @@ class App extends Component{
     }
 }
 ReactDOM.render(
-   /* внедряем роутер в прилоежние */
-    <Provider store={store}><BrowserRouter><App/></BrowserRouter></Provider>, 
+    <Provider store={store}><BrowserRouter basename="/blog-react"><App/></BrowserRouter></Provider>, 
     document.querySelector('#root')
 );
