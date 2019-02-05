@@ -17,10 +17,10 @@ class Menu extends PureComponent {
         const { menu, toggle, isOpen, clickMenu, location } = this.props;
         return (
             <Navbar dark expand="md">
-                <NavbarBrand href="/" className="logo">
+                <NavLink to="/" className="logo navbar-brand">
                     <img src="./img/3d-logo.svg" alt="Блог о 3D и 2D" width="60" />
                     <span>Блог о 3D и 2D</span>
-                </NavbarBrand>
+                </NavLink>
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className="mr-auto" navbar>
