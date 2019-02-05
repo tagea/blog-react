@@ -20,7 +20,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'js/index.js',
-        publicPath: '/'
+        publicPath: '/blog-react/'
     },
     resolve: {
         extensions: ['.js', '.jsx'],
