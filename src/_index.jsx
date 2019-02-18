@@ -3,7 +3,8 @@ import './_index.scss'; //Пользовательские стили
 //компоненты React
 import React, {Component, Fragment} from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+
+import {HashRouter, Switch, Route} from 'react-router-dom';
 import {Provider} from 'react-redux';
 
 //компоненты Bootstrap
@@ -54,6 +55,6 @@ class App extends Component{
     }
 }
 ReactDOM.render(
-    <Provider store={store}><BrowserRouter basename="/blog-react"><App/></BrowserRouter></Provider>, 
+    <Provider store={store}><HashRouter basename="/blog-react"><App/></HashRouter></Provider>, 
     document.querySelector('#root')
 );
