@@ -8,4 +8,4 @@
 
 - Работа с JSON через my-json-server (web версия)
 
-Web-версия [Блог о 3D и 2D](https://www.dropbox.com/sh/zhg8e4mpdab5mba/AACgLVIKyJZBw3j9cKCll5Fka?dl=0)
+Web-версия [Блог о 3D и 2D](http://yulyavasilyeva.ru/blog-react/#/blog-react/)
